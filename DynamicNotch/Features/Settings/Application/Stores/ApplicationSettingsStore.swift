@@ -41,7 +41,7 @@ final class ApplicationSettingsStore: SettingsStoreBase, NotchSettingsProviding 
 
     @Published var notchWidth: Int {
         didSet {
-            let clamped = min(20, max(-20, notchWidth))
+            let clamped = min(40, max(-40, notchWidth))
             if clamped != notchWidth {
                 notchWidth = clamped
                 return

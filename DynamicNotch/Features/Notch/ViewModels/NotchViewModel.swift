@@ -56,7 +56,7 @@ final class NotchViewModel: ObservableObject {
     }
 
     var isDynamicIsland: Bool {
-        topInset == 0
+        false
     }
 
     var isDisplayingExpandedLiveActivity: Bool {
